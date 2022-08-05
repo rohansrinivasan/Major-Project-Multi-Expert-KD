@@ -49,9 +49,8 @@ data.
 * A Batch normalization layer, with the batch size as 64.
 * A Dropout layer with 20% dropout to avoid overfitting.
 * A Dense or a fully connected layer with 50 neurons owing to the 50 target classes
-```
 ### Trainable Parameters: 693,170
-```
+
 
 ## Multi-Student Model Parameters (Architecture and Parameter of each functional model remains the same)
 * 1D convolutional layer with 2 filters after the initial input layer (total 6 filters) with Sigmoid activation function.
@@ -63,17 +62,12 @@ data.
 * A Batch normalization layer, with the batch size as 64.
 * A Dropout layer with 20% dropout to avoid overfitting.
 * A Dense or a fully connected layer with 50 neurons owing to the 50 target classes
-```
 ### Trainable Parameters: 168,432
-```
+
 
 # Results
-```
-Multi-Teacher Model Accuracy: 93.600%  
-Multi-Teacher Model Size: 2,579,392 bytes
-```
+###Multi-Teacher Model Accuracy: 93.600%  
+###Multi-Teacher Model Size: 2,579,392 bytes
 
-```
-Multi-Student Model Accuracy: 91.485%  
-Multi-Student Model Size: 633,673 bytes
-```
+###Multi-Student Model Accuracy: 91.485%  
+###Multi-Student Model Size: 633,673 bytes
