@@ -66,8 +66,8 @@ data.
 
 
 # Results
-###Multi-Teacher Model Accuracy: 93.600%  
-###Multi-Teacher Model Size: 2,579,392 bytes
+### Multi-Teacher Model Accuracy: 93.600%  
+### Multi-Teacher Model Size: 2,579,392 bytes
 
-###Multi-Student Model Accuracy: 91.485%  
-###Multi-Student Model Size: 633,673 bytes
+### Multi-Student Model Accuracy: 91.485%  
+### Multi-Student Model Size: 633,673 bytes
