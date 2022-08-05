@@ -64,17 +64,23 @@ data.
 * A Dense or a fully connected layer with 50 neurons owing to the 50 target classes
 ### Trainable Parameters: 168,432
 
-
 # Results
 ## Multi-Teacher Model 
 Accuracy: 93.600%  
 Model Size: 2,579,392 bytes
 
-![teach_train_acc](https://user-images.githubusercontent.com/102278418/183046307-058c03c5-bee8-4430-8d87-d1aed1a0786c.jpeg)
-![teach_train_loss](https://user-images.githubusercontent.com/102278418/183046390-75ff2d3a-3ce1-4ccf-8de1-ac74bcf08931.jpeg)
+![teach_train_acc](https://user-images.githubusercontent.com/102278418/183049716-b51d9478-5dd9-4db5-89a0-24c367c62f4a.jpg)
+![teach_train_loss](https://user-images.githubusercontent.com/102278418/183049786-744fc441-b362-4d3e-87bb-243012ce9782.jpg)
 ![teach_test_acc](https://user-images.githubusercontent.com/102278418/183047675-00d9ade3-d2c7-48d9-8b1f-c1c1520b94b4.jpg)
-![teach_test_loss](https://user-images.githubusercontent.com/102278418/183046222-168645d5-49d5-490c-97b8-88c8cd69df11.jpeg)
+![teach_test_loss](https://user-images.githubusercontent.com/102278418/183049869-b387694b-9c92-4280-940a-37a8b97e223a.jpg)
 
 ## Multi-Student Model 
 Accuracy: 91.485%  
 Model Size: 633,673 bytes
+
+![distillation_test_accuracy](https://user-images.githubusercontent.com/102278418/183050108-66dcbcb1-2632-4bf8-af8e-93228bc4f4a6.jpg)
+![distillation Loss](https://user-images.githubusercontent.com/102278418/183050268-0b11fb5b-7b78-41b8-a239-938caae7446d.jpg)
+
+### Model Size Comparison
+![model size bar](https://user-images.githubusercontent.com/102278418/183050629-d7221d23-e451-4093-9ebd-a28bd3e70bd3.jpg)
+
