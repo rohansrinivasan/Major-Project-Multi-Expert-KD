@@ -84,3 +84,12 @@ Model Size: 633,673 bytes
 ### Model Size Comparison
 ![model size bar](https://user-images.githubusercontent.com/102278418/183050629-d7221d23-e451-4093-9ebd-a28bd3e70bd3.jpg)
 
+# Acknowledgement
+We would like to recognize the funding support provided by the Science & Engineering Research Board, a statutory body of the Department of Science & Technology (DST), Government of India, SERB file number ECR/2016/000637.
+
+# References
+* https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/
+* https://machinelearningmastery.com/how-to-develop-convolutional-neural-network-models-for-time-series-forecasting/
+* KD: https://keras.io/examples/vision/knowledge_distillation/
+* Ensemble KD: https://machinelearningmastery.com/weighted-average-ensemble-for-deep-learning-neural-networks/
+
