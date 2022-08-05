@@ -12,25 +12,25 @@ Different types of model compression techniques are -
 * Knowledge Distillation: Knowledge distillation is built on the idea that training and inference are two different tasks, and that the same model need not be used for each. (This is the technique used in the project)
 
 ## What is Knowledge Distillation?
+![1_8KqNtABnNXM527JK9UuBUQ](https://user-images.githubusercontent.com/102278418/183052478-bd426308-9eed-4a9b-9bef-10227f193927.jpeg)
 Knowledge distillation is built on the idea that training and inference are two different tasks, and that the same model need not be used for each. Here a base expert model called the teacher model is trained, and its learning is then used to teach a much smaller student model with fewer parameters in comparison to mimic the base model’s performance. The goal is so that smaller student model has the same distribution as the larger teacher model and thus can be used for deployment.
 
-## What is Multi-Expert Knowledge Distillation? and why it is implemented in this project! 
+## What is Multi-Expert Knowledge Distillation? and Why it is implemented in this project! 
+![The-generic-framework-for-multi-teacher-distillation](https://user-images.githubusercontent.com/102278418/183052443-dd5f961b-abb0-4a3c-9a53-87ba5309a953.png)
 Multi-Teacher Knowledge Distillation is an extension to Knowledge Distillation, where instead of one teacher distributing over a student, we use multiple teacher’s as an ensemble or average their weights and use their data to distribute over a student model. As mentioned before, we know that Knowledge Distillation is an effective model compression technique, but it has its limits. The knowledge from a single teacher may be limited to some depth and also can be biased which results in a low-quality student model. Using a multi-teacher base model severely reduces the overfitting bias in comparison to a single teacher base model and transfers more generalized knowledge to the student modeland an ensemble of teachers distilling over a student provides much more promising performance from the student model as compared to a single one. Thus, it is quite clear that using multiple teacher models to train a single student model is much more viable, future-proof and boasts better accuracy than compared to a single teacher model. This is the motivation for Multi – Teacher Knowledge Distillation.
 
 ## Dependencies
 * Python (3.6 or higher)
+
 * Pandas
 * Keras 
-* Tensorflow – Python library for developing deep neural networks.
-* Numpy – Python library used for working with arrays.
-* Matplotlib – It is a Python library used for plotting graphs to visualise data.
-* Scipy – Python library used for solving mathematical, technical and scientific
-problems.
-* Scikit-Learn – Python library for machine learning. It contains various machine
-learning algorithms within it.
-* Seaborn – A Python library built on top of Matplotlib. It is also used to visualise
-data.
-
+* Tensorflow 
+* Numpy 
+* Matplotlib 
+* Scipy 
+* Scikit-Learn 
+* Seaborn 
+* 
 ### This project is ran/tested on Google Colab. 
 
 # Dataset 
@@ -39,6 +39,7 @@ data.
 
 # Model Architecture
 ![base model architecture](https://user-images.githubusercontent.com/102278418/183045777-7aac6470-e340-4b3d-9c12-5595e0503a4a.png)
+![Screen Shot 2022-04-25 at 12 07 10 AM](https://user-images.githubusercontent.com/102278418/183052209-f1592747-ff31-4fde-bb96-c97437f64f13.png)
 ## Multi-Teacher Model Parameters (Architecture and Parameter of each functional model remains the same)
 * 1D convolutional layer with 12 filters after the initial input layer (total 26 filters) with Sigmoid activation function.
 * Average-pooling layer, with the pool size as 3
