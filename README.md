@@ -13,10 +13,12 @@ Different types of model compression techniques are -
 
 ## What is Knowledge Distillation?
 ![1_8KqNtABnNXM527JK9UuBUQ](https://user-images.githubusercontent.com/102278418/183052478-bd426308-9eed-4a9b-9bef-10227f193927.jpeg)
+
 Knowledge distillation is built on the idea that training and inference are two different tasks, and that the same model need not be used for each. Here a base expert model called the teacher model is trained, and its learning is then used to teach a much smaller student model with fewer parameters in comparison to mimic the base model’s performance. The goal is so that smaller student model has the same distribution as the larger teacher model and thus can be used for deployment.
 
 ## What is Multi-Expert Knowledge Distillation? and Why it is implemented in this project! 
 ![The-generic-framework-for-multi-teacher-distillation](https://user-images.githubusercontent.com/102278418/183052443-dd5f961b-abb0-4a3c-9a53-87ba5309a953.png)
+
 Multi-Teacher Knowledge Distillation is an extension to Knowledge Distillation, where instead of one teacher distributing over a student, we use multiple teacher’s as an ensemble or average their weights and use their data to distribute over a student model. As mentioned before, we know that Knowledge Distillation is an effective model compression technique, but it has its limits. The knowledge from a single teacher may be limited to some depth and also can be biased which results in a low-quality student model. Using a multi-teacher base model severely reduces the overfitting bias in comparison to a single teacher base model and transfers more generalized knowledge to the student modeland an ensemble of teachers distilling over a student provides much more promising performance from the student model as compared to a single one. Thus, it is quite clear that using multiple teacher models to train a single student model is much more viable, future-proof and boasts better accuracy than compared to a single teacher model. This is the motivation for Multi – Teacher Knowledge Distillation.
 
 ## Dependencies
