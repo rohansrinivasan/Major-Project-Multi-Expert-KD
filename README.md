@@ -72,7 +72,7 @@ Model Size: 2,579,392 bytes
 
 ![teach_train_acc](https://user-images.githubusercontent.com/102278418/183046307-058c03c5-bee8-4430-8d87-d1aed1a0786c.jpeg)
 ![teach_train_loss](https://user-images.githubusercontent.com/102278418/183046390-75ff2d3a-3ce1-4ccf-8de1-ac74bcf08931.jpeg)
-![teach_test_acc](https://user-images.githubusercontent.com/102278418/183046124-87efa614-9b30-4f4d-a887-de7f5a7761b9.jpeg)
+![teach_test_acc](https://user-images.githubusercontent.com/102278418/183047675-00d9ade3-d2c7-48d9-8b1f-c1c1520b94b4.jpg)
 ![teach_test_loss](https://user-images.githubusercontent.com/102278418/183046222-168645d5-49d5-490c-97b8-88c8cd69df11.jpeg)
 
 ## Multi-Student Model 
