@@ -38,7 +38,7 @@ data.
 * Signals were recorded using six Delsys wireless sensors, consisting of one sEMG sensor and one IMU containing a tri-axis accelerometer and a tri-axis gyroscope each. The sampling period sEMG sensors was 900 μs and for accelerometer and gyroscopes, 6.7 ms and 16 bits per sample.
 
 # Model Architecture
-
+![base model architecture](https://user-images.githubusercontent.com/102278418/183045777-7aac6470-e340-4b3d-9c12-5595e0503a4a.png)
 ## Multi-Teacher Model Parameters (Architecture and Parameter of each functional model remains the same)
 * 1D convolutional layer with 12 filters after the initial input layer (total 26 filters) with Sigmoid activation function.
 * Average-pooling layer, with the pool size as 3
@@ -66,8 +66,14 @@ data.
 
 
 # Results
-### Multi-Teacher Model Accuracy: 93.600%  
-### Multi-Teacher Model Size: 2,579,392 bytes
+## Multi-Teacher Model 
+Accuracy: 93.600%  
+Model Size: 2,579,392 bytes
+![teach_train_acc](https://user-images.githubusercontent.com/102278418/183046307-058c03c5-bee8-4430-8d87-d1aed1a0786c.png)
+![teach_train_loss](https://user-images.githubusercontent.com/102278418/183046390-75ff2d3a-3ce1-4ccf-8de1-ac74bcf08931.png)
+![teach_test_acc](https://user-images.githubusercontent.com/102278418/183046124-87efa614-9b30-4f4d-a887-de7f5a7761b9.png)
+![teach_test_loss](https://user-images.githubusercontent.com/102278418/183046222-168645d5-49d5-490c-97b8-88c8cd69df11.png)
 
-### Multi-Student Model Accuracy: 91.485%  
-### Multi-Student Model Size: 633,673 bytes
+## Multi-Student Model 
+Accuracy: 91.485%  
+Model Size: 633,673 bytes
