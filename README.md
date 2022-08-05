@@ -32,7 +32,7 @@ Multi-Teacher Knowledge Distillation is an extension to Knowledge Distillation, 
 * Scipy 
 * Scikit-Learn 
 * Seaborn 
-* 
+
 ### This project is ran/tested on Google Colab. 
 
 # Dataset 
