@@ -69,6 +69,7 @@ data.
 ## Multi-Teacher Model 
 Accuracy: 93.600%  
 Model Size: 2,579,392 bytes
+
 ![teach_train_acc](https://user-images.githubusercontent.com/102278418/183046307-058c03c5-bee8-4430-8d87-d1aed1a0786c.png)
 ![teach_train_loss](https://user-images.githubusercontent.com/102278418/183046390-75ff2d3a-3ce1-4ccf-8de1-ac74bcf08931.png)
 ![teach_test_acc](https://user-images.githubusercontent.com/102278418/183046124-87efa614-9b30-4f4d-a887-de7f5a7761b9.png)
