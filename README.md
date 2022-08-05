@@ -53,6 +53,7 @@ Multi-Teacher Knowledge Distillation is an extension to Knowledge Distillation, 
 * A Dropout layer with 20% dropout to avoid overfitting.
 * A Dense or a fully connected layer with 50 neurons owing to the 50 target classes
 ### Trainable Parameters: 693,170
+### Epochs Trained on : 100
 
 
 ## Multi-Student Model Parameters (Architecture and Parameter of each functional model remains the same)
@@ -66,6 +67,7 @@ Multi-Teacher Knowledge Distillation is an extension to Knowledge Distillation, 
 * A Dropout layer with 20% dropout to avoid overfitting.
 * A Dense or a fully connected layer with 50 neurons owing to the 50 target classes
 ### Trainable Parameters: 168,432
+### Epochs Trained on : 50
 
 # Results
 ## Multi-Teacher Model 
