@@ -92,13 +92,6 @@ Model Size: 633,673 bytes
 # Acknowledgement
 We would like to recognize the funding support provided by the Science & Engineering Research Board, a statutory body of the Department of Science & Technology (DST), Government of India, SERB file number ECR/2016/000637.
 
-# Team Members
-* Rohan Srinivasan (Me) (Linkedin: https://www.linkedin.com/in/rohan-srinivasan-2457591b1/)
-* Sanjana Golaya (Linkedin: https://www.linkedin.com/in/sanjana-golaya/)
-
-# Faculty Guide
-* Dr. Rinki Gupta (Linkedin: https://www.linkedin.com/in/rinki-gupta-019666133/)
-
 # References
 * https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/
 * https://machinelearningmastery.com/how-to-develop-convolutional-neural-network-models-for-time-series-forecasting/
